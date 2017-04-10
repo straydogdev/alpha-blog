@@ -16,3 +16,47 @@ $navbar-default-bg: #FFFAFA;
 	color: #778899;
 	text-decoration: none;
 }
+
+.center {
+	text-align: center;
+}
+
+.jumbotron {
+	background-image: asset-url('road.jpg');
+	background-size: cover;
+	height: 560px;
+}
+
+.jumbotron h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #F0F8FF;
+}
+
+.btn-xlarge {
+	font-size: 1.7em;
+	background-color: black;
+}
+
+.footer {
+	margin-top: 350px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+	float: left;
+}
+
+.footer a:hover {
+	color: #222;
+}
+
+.footer small {
+	float: left;
+}
+
+.footer ul {
+	float: right;
+	list-style: none;
+}
