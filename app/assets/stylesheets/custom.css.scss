@@ -40,6 +40,14 @@ $navbar-default-bg: #FFFAFA;
 	background-color: black;
 }
 
+.btn {
+	padding: 7px;
+}
+
+.btn-xs {
+	font-size: 1.0em;
+}
+
 .article-actions {
 	border-top: 1px solid #eaeaea;
 	padding-top: 5px;
@@ -51,7 +59,7 @@ $navbar-default-bg: #FFFAFA;
 
 .article-title {
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 
 .article-body {
