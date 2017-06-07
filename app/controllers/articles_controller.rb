@@ -1,14 +1,15 @@
-class ArticlesController < ApplicationController 
-	
+class ArticlesController < ApplicationController
+
 	def index
-		@article = Article.all 
+		@article = Article.all
 	end
 
 	def new
-		@article = Article.new 
-	end 
+		@article = Article.new
+	end
 
 	def create
+		debugger
 		@article = Article.new(article_params)
 		@article.user = User.first
 		if @article.save
@@ -45,9 +46,9 @@ class ArticlesController < ApplicationController
 	end
 
 	private
-		def article_params 
+		def article_params
 		params.require(:article).permit(:title, :description)
 		end
-	
 
-end 
+
+end
