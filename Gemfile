@@ -11,6 +11,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'rails', '~> 5.0.2'
 # Use Puma as the app server
+gem 'bcrypt', '~> 3.1.11'
+#hashing function
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -54,6 +56,6 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
-end  
+end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
